@@ -35,7 +35,7 @@ class TodoListViewController: UITableViewController {
         return cell
     }
     
-    //MARK - Tableview delegate method
+    //MARK: - Tableview delegate method
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -48,7 +48,7 @@ class TodoListViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-    //MARK - Add new items
+    //MARK: - Add new items
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
